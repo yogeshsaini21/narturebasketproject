@@ -1,0 +1,15 @@
+
+.products{
+    width: 90%;
+    border: 0px solid;
+   
+    margin-right: 4%;
+}
+.products>div{
+    height: auto;
+}
+#filter{
+    width: 10%;
+    border: 1px solid;
+    height: 200px;
+}
