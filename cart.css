@@ -1,0 +1,48 @@
+#products {
+  
+   
+    
+  }
+  
+#products > div {
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  #products > div:hover{
+    
+  }
+  #products > div >img {
+    width: 5%;
+  }
+  #products > div>p{
+   margin-top: 3%;
+  }
+  #products>div>h3{
+  margin-top: 3%;
+  }
+  
+  
+  #products>div>h4{
+   height: 20px;
+   margin-top: 3%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  #products>div>button:hover{
+   color: white;
+  }
+  #products>div>button{
+    background-color: red;
+    border: 1px solid red;
+  margin-top: 3%;
+  height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10%;
+    
+  }
