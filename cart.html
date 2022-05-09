@@ -202,6 +202,22 @@
 <script>
 
 var cartLSData = JSON.parse(localStorage.getItem("masai-cart")) ||[];
+totalprice(cartLSData);
+
+function totalprice(data){
+    var add=0;
+    var tp=document.createElement("h2");
+    data.forEach(function(element){
+        add+=+(element.price);
+    });
+    console.log(add);
+    tp.append("Total Price - "+add)
+    total.append(tp);
+    
+    window.location.reload()
+    
+
+}
 
 
 function display(data){
